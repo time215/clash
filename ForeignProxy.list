@@ -1,6 +1,7 @@
-rules:
-  - DOMAIN-SUFFIX,flyingbird.cc,Proxy
-  - DOMAIN-SUFFIX,fbweb02.flyingbird.la,Proxy
-  - DOMAIN-SUFFIX,fbweb02.flyingbird.id,Proxy
-  - DOMAIN-SUFFIX,web02.fbcn.pro,Proxy
-  - DOMAIN-SUFFIX,fccfweb20231204.fatcatcf.com,Proxy
+# 其他网站
+DOMAIN-SUFFIX,flyingbird.cc,Proxy
+DOMAIN-SUFFIX,fbweb02.flyingbird.la,Proxy
+DOMAIN-SUFFIX,fbweb02.flyingbird.id,Proxy
+DOMAIN-SUFFIX,web02.fbcn.pro,Proxy
+DOMAIN-SUFFIX,fccfweb20231204.fatcatcf.com,Proxy
+

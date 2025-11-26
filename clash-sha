@@ -1,132 +1,149 @@
-proxy-groups:
-  # === 核心策略组 ===
-  # 默认代理：包含了所有自动组 + 所有国家手动组 + 全部节点
-  - {name: 🚀 默认代理, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: 📹 YouTube, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇺🇲 美国节点, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: 🍀 Google, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: 🤖 gemini, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇺🇲 美国节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: 🤖 AI, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇺🇲 美国节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: 🤖 apple-intelligence, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇺🇲 美国节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇩🇪 德国节点, 🌐 全部节点, 直连]}  
-  - {name: 👨🏿‍💻 GitHub, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇬🇧 英国节点, 🇩🇪 德国节点, 🌐 全部节点, 直连]}  
-  - {name: 🐬 OneDrive, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: 🪟 Microsoft, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: 🎮 PlayStation, type: select, proxies: [直连, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇯🇵 日本节点, 🇭🇰 香港节点, 🇺🇲 美国节点, 🌐 全部节点]}  
-  - {name: 🎮 steam, type: select, proxies: [直连, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🌐 全部节点]}  
-  - {name: 🎮 epicgames, type: select, proxies: [直连, ♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🌐 全部节点]}  
-  - {name: 🎵 TikTok, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇯🇵 日本节点, 🇸🇬 狮城节点, 🇺🇲 美国节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: 📲 Telegram, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇸🇬 狮城节点, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇬🇧 英国节点, 🇩🇪 德国节点, 🌐 全部节点, 直连]}  
-  - {name: 🎥 NETFLIX, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 🇹🇼 台湾自动, ♻️ 🇬🇧 英国自动, ♻️ 🇲🇾 马来自动, ♻️ 自动选择, 🇸🇬 狮城节点, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🇹🇼 台湾节点, 🇬🇧 英国节点, 🇲🇾 马来节点, 🇹🇷 土耳其节点, 🇦🇷 阿根廷节点, 🇩🇪 德国节点, 🇫🇷 法国节点, 🇧🇷 巴西节点, 🇰🇷 韩国节点, 🇹🇭 泰国节点, 🇵🇭 菲律宾节点, 🇻🇳 越南节点, 🇮🇩 印尼节点, 🌐 全部节点, 直连]}  
-  - {name: ✈️ Speedtest, type: select, proxies: [♻️ 自动选择, 🌐 全部节点, 直连]}
-  - {name: 💶 PayPal, type: select, proxies: [♻️ 美国自动, ♻️ 日本自动, ♻️ 香港自动, ♻️ 自动选择, 🇺🇲 美国节点, 🇯🇵 日本节点, 🇭🇰 香港节点, 🌐 全部节点, 直连]}  
-  - {name: 🍎 Apple, type: select, proxies: [直连, 🚀 默认代理]}  
-  - {name: 🎯 直连, type: select, proxies: [直连, 🚀 默认代理]}  
-  - {name: 🐟 漏网之鱼, type: select, proxies: [♻️ 香港自动, ♻️ 日本自动, ♻️ 狮城自动, ♻️ 美国自动, ♻️ 自动选择, 🌐 全部节点, 直连]}
+[common]
+; 通用设置
+main_rule_base=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GeneralClashConfig.yml
 
-  # === 地区手动选择组 (所有识别到的地区) ===
-  - {name: 🇭🇰 香港节点, type: select, include-all: true, filter: "(?i)港|hk|hongkong|hong kong"}
-  - {name: 🇯🇵 日本节点, type: select, include-all: true, filter: "(?i)日|jp|japan"}
-  - {name: 🇸🇬 狮城节点, type: select, include-all: true, filter: "(?i)新加坡|坡|狮城|SG|Singapore"}
-  - {name: 🇺🇲 美国节点, type: select, include-all: true, filter: "(?i)美|us|unitedstates|united states"}
-  - {name: 🇹🇼 台湾节点, type: select, include-all: true, filter: "(?i)台|台湾|TW|Taiwan|taiwan"}
-  - {name: 🇬🇧 英国节点, type: select, include-all: true, filter: "(?i)(?=.*(英|UK|Great|Britain|GB))^((?!(流量|剩余|到期|网址|官网)).)*$"}
-  - {name: 🇲🇾 马来节点, type: select, include-all: true, filter: "(?i)马来|MY|Malaysia"}
-  - {name: 🇹🇷 土耳其节点, type: select, include-all: true, filter: "(?i)土耳其|TR|Turkey"}
-  - {name: 🇦🇷 阿根廷节点, type: select, include-all: true, filter: "(?i)阿根廷|AR|Argentina"}
-  - {name: 🇩🇪 德国节点, type: select, include-all: true, filter: "(?i)德|DE|Germany"}
-  - {name: 🇫🇷 法国节点, type: select, include-all: true, filter: "(?i)法|FR|France"}
-  - {name: 🇧🇷 巴西节点, type: select, include-all: true, filter: "(?i)巴西|BR|Brazil"}
-  - {name: 🇰🇷 韩国节点, type: select, include-all: true, filter: "(?i)韩|KR|Korea"}
-  - {name: 🇹🇭 泰国节点, type: select, include-all: true, filter: "(?i)泰|TH|Thailand"}
-  - {name: 🇵🇭 菲律宾节点, type: select, include-all: true, filter: "(?i)菲|PH|Philippines"}
-  - {name: 🇻🇳 越南节点, type: select, include-all: true, filter: "(?i)越|VN|Vietnam"}
-  - {name: 🇮🇩 印尼节点, type: select, include-all: true, filter: "(?i)印尼|ID|Indonesia"}
-  
-  # === 地区自动测速组 (仅针对节点 > 3个 的地区) ===
-  - {name: ♻️ 香港自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)港|HK|Hong"}
-  - {name: ♻️ 日本自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)日|JP|Japan"}
-  - {name: ♻️ 狮城自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)新加坡|坡|狮城|SG|Singapore"}
-  - {name: ♻️ 美国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)美|US|States|America"}
-  - {name: ♻️ 🇹🇼 台湾自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)台|TW|Taiwan"}
-  - {name: ♻️ 🇬🇧 英国自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)(?=.*(英|UK|Great|Britain|GB))^((?!(流量|剩余|到期|网址|官网)).)*$"}
-  - {name: ♻️ 🇲🇾 马来自动, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "(?i)马来|MY|Malaysia"}
+; 设定规则源的更新代理 (Github有时候需要代理)
+; resource_parser_url=https://sub.xeton.dev/sub?target=%s&url=%s&insert=false
 
-  # === 全局自动 ===
-  - {name: ♻️ 自动选择, type: url-test, include-all: true, tolerance: 20, interval: 300, filter: "^((?!(直连|流量|剩余|到期|网址|官网|重置)).)*$"}
-  - {name: 🌐 全部节点, type: select, include-all: true, filter: "^((?!(流量|剩余|到期|网址|官网|重置)).)*$"}
+[proxy_all]
+; 排除关键词 (排除流量、官网、到期等无效节点)
+exclude_remarks=(?i)(流量|剩余|到期|网址|官网|重置)
 
-# 规则匹配
-rules:
-  # -- Custom Apple Route --
-  - DOMAIN-SUFFIX,qichiyu.com,🚀 默认代理
-  
-  # -- Steam & Epic 国内强制直连 (防止偷跑) --
-  - RULE-SET,steam@cn_domain,🎯 直连
-  - RULE-SET,epicgames@cn_domain,🎯 直连
-  
-  # -- 常规规则 --
-  - RULE-SET,private_domain,直连
-  - RULE-SET,apple_domain,🍎 Apple
-  - RULE-SET,proxylite,🚀 默认代理
-  - RULE-SET,gemini,🤖 gemini
-  - RULE-SET,ai,🤖 AI
-  # Apple Intelligence 规则 (已删除顶部手动域名)
-  - RULE-SET, apple-intelligence_domain,🤖 apple-intelligence
-  - RULE-SET,github_domain,👨🏿‍💻 GitHub
-  - RULE-SET,youtube_domain,📹 YouTube
-  - RULE-SET,google_domain,🍀 Google
-  - RULE-SET,onedrive_domain,🐬 OneDrive
-  - RULE-SET,microsoft_domain,🪟 Microsoft
-  - RULE-SET,PlayStation_domain,🎮 PlayStation
-  - RULE-SET,steam_domain,🎮 steam
-  - RULE-SET,epicgames_domain,🎮 epicgames
-  - RULE-SET,tiktok_domain,🎵 TikTok
-  - RULE-SET,speedtest_domain,✈️ Speedtest
-  - RULE-SET,telegram_domain,📲 Telegram
-  - RULE-SET,netflix_domain,🎥 NETFLIX
-  - RULE-SET,paypal_domain,💶 PayPal
-  
-  # -- 兜底规则 --
-  - RULE-SET,gfw_domain,🚀 默认代理
-  - RULE-SET,geolocation-!cn,🚀 默认代理
-  - RULE-SET,cn_domain,🎯 直连
-  - RULE-SET,google_ip,🍀 Google,no-resolve
-  - RULE-SET,netflix_ip,🎥 NETFLIX,no-resolve
-  - RULE-SET,telegram_ip,📲 Telegram,no-resolve
-  - RULE-SET,cn_ip,🎯 直连
-  - MATCH,🐟 漏网之鱼
+[custom_proxy_group]
+; === 地区自动测速组 (Url-Test) ===
+; 格式: group_name, type, content, url, interval
+custom_proxy_group=♻️ 香港自动`url-test`(?i)(港|HK|Hong)`http://www.gstatic.com/generate_204`300
+custom_proxy_group=♻️ 日本自动`url-test`(?i)(日|JP|Japan)`http://www.gstatic.com/generate_204`300
+custom_proxy_group=♻️ 狮城自动`url-test`(?i)(新加坡|坡|狮城|SG|Singapore)`http://www.gstatic.com/generate_204`300
+custom_proxy_group=♻️ 美国自动`url-test`(?i)(美|US|States|America)`http://www.gstatic.com/generate_204`300
+custom_proxy_group=♻️ 🇹🇼 台湾自动`url-test`(?i)(台|TW|Taiwan)`http://www.gstatic.com/generate_204`300
+custom_proxy_group=♻️ 🇬🇧 英国自动`url-test`(?i)(英|UK|Great|Britain|GB)`http://www.gstatic.com/generate_204`300
+custom_proxy_group=♻️ 🇲🇾 马来自动`url-test`(?i)(马来|MY|Malaysia)`http://www.gstatic.com/generate_204`300
+custom_proxy_group=♻️ 自动选择`url-test`.*`http://www.gstatic.com/generate_204`300
 
-# 规则集
-rule-anchor:
-  ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
-  domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
-  class: &class {type: http, interval: 86400, behavior: classical, format: text}
-rule-providers: 
-  private_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"}
-  proxylite: { <<: *class, url: "https://raw.githubusercontent.com/qichiyuhub/rule/refs/heads/main/proxy.list"}
-  gemini: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google-gemini.mrs" }
-  ai: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/category-ai-!cn.mrs" }
-  apple-intelligence_domain: {  <<: *domain, url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/apple-intelligence.mrs" }
-  youtube_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/youtube.mrs"}
-  google_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google.mrs"}
-  github_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/github.mrs"}
-  telegram_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
-  netflix_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
-  paypal_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
-  onedrive_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs"}
-  microsoft_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
-  PlayStation_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/playstation.mrs"} 
-  steam@cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam@cn.mrs"} 
-  steam_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/steam.mrs"}
-  epicgames@cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/epicgames@cn.mrs"} 
-  epicgames_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/epicgames.mrs"}
-  apple_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/apple-cn.mrs"}
-  speedtest_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/ookla-speedtest.mrs"}
-  tiktok_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/tiktok.mrs"}
-  gfw_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/gfw.mrs"}
-  geolocation-!cn: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/geolocation-!cn.mrs"}
-  cn_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/cn.mrs"}
-  
-  cn_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/cn.mrs"}
-  google_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/google.mrs"}
-  telegram_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/telegram.mrs"}
-  netflix_ip: { <<: *ip, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/netflix.mrs"}
+; === 地区手动选择组 (Select) ===
+custom_proxy_group=🇭🇰 香港节点`select`(?i)(港|hk|hongkong|hong kong)
+custom_proxy_group=🇯🇵 日本节点`select`(?i)(日|jp|japan)
+custom_proxy_group=🇸🇬 狮城节点`select`(?i)(新加坡|坡|狮城|SG|Singapore)
+custom_proxy_group=🇺🇲 美国节点`select`(?i)(美|us|unitedstates|united states)
+custom_proxy_group=🇹🇼 台湾节点`select`(?i)(台|台湾|TW|Taiwan|taiwan)
+custom_proxy_group=🇬🇧 英国节点`select`(?i)(英|UK|Great|Britain|GB)
+custom_proxy_group=🇲🇾 马来节点`select`(?i)(马来|MY|Malaysia)
+custom_proxy_group=🇹🇷 土耳其节点`select`(?i)(土耳其|TR|Turkey)
+custom_proxy_group=🇦🇷 阿根廷节点`select`(?i)(阿根廷|AR|Argentina)
+custom_proxy_group=🇩🇪 德国节点`select`(?i)(德|DE|Germany)
+custom_proxy_group=🇫🇷 法国节点`select`(?i)(法|FR|France)
+custom_proxy_group=🇧🇷 巴西节点`select`(?i)(巴西|BR|Brazil)
+custom_proxy_group=🇰🇷 韩国节点`select`(?i)(韩|KR|Korea)
+custom_proxy_group=🇹🇭 泰国节点`select`(?i)(泰|TH|Thailand)
+custom_proxy_group=🇵🇭 菲律宾节点`select`(?i)(菲|PH|Philippines)
+custom_proxy_group=🇻🇳 越南节点`select`(?i)(越|VN|Vietnam)
+custom_proxy_group=🇮🇩 印尼节点`select`(?i)(印尼|ID|Indonesia)
+
+; === 核心策略组 ===
+; 🚀 默认代理
+custom_proxy_group=🚀 默认代理`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇭🇰 香港节点`🇯🇵 日本节点`🇸🇬 狮城节点`🇺🇲 美国节点`🇹🇼 台湾节点`🇬🇧 英国节点`🇲🇾 马来节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`🇩🇪 德国节点`🇫🇷 法国节点`🇧🇷 巴西节点`🇰🇷 韩国节点`🇹🇭 泰国节点`🇵🇭 菲律宾节点`🇻🇳 越南节点`🇮🇩 印尼节点`.*`🎯 直连
+
+; 📹 YouTube
+custom_proxy_group=📹 YouTube`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇺🇲 美国节点`🇭🇰 香港节点`🇯🇵 日本节点`🇸🇬 狮城节点`🇹🇼 台湾节点`🇬🇧 英国节点`🇲🇾 马来节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`🇩🇪 德国节点`🇫🇷 法国节点`🇧🇷 巴西节点`🇰🇷 韩国节点`🇹🇭 泰国节点`🇵🇭 菲律宾节点`🇻🇳 越南节点`🇮🇩 印尼节点`.*`🎯 直连
+
+; 🍀 Google
+custom_proxy_group=🍀 Google`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇭🇰 香港节点`🇯🇵 日本节点`🇸🇬 狮城节点`🇺🇲 美国节点`🇹🇼 台湾节点`🇬🇧 英国节点`🇲🇾 马来节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`🇩🇪 德国节点`🇫🇷 法国节点`🇧🇷 巴西节点`🇰🇷 韩国节点`🇹🇭 泰国节点`🇵🇭 菲律宾节点`🇻🇳 越南节点`🇮🇩 印尼节点`.*`🎯 直连
+
+; 🤖 Gemini & AI & Apple AI
+custom_proxy_group=🤖 gemini`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇺🇲 美国节点`🇯🇵 日本节点`🇸🇬 狮城节点`🇭🇰 香港节点`🇹🇼 台湾节点`🇬🇧 英国节点`🇲🇾 马来节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`🇩🇪 德国节点`🇫🇷 法国节点`🇧🇷 巴西节点`🇰🇷 韩国节点`🇹🇭 泰国节点`🇵🇭 菲律宾节点`🇻🇳 越南节点`🇮🇩 印尼节点`.*`🎯 直连
+
+custom_proxy_group=🤖 AI`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇺🇲 美国节点`🇯🇵 日本节点`🇸🇬 狮城节点`🇭🇰 香港节点`🇹🇼 台湾节点`🇬🇧 英国节点`🇲🇾 马来节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`🇩🇪 德国节点`🇫🇷 法国节点`🇧🇷 巴西节点`🇰🇷 韩国节点`🇹🇭 泰国节点`🇵🇭 菲律宾节点`🇻🇳 越南节点`🇮🇩 印尼节点`.*`🎯 直连
+
+custom_proxy_group=🤖 apple-intelligence`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇺🇲 美国节点`🇯🇵 日本节点`🇸🇬 狮城节点`🇹🇼 台湾节点`🇬🇧 英国节点`🇲🇾 马来节点`🇩🇪 德国节点`.*`🎯 直连
+
+; 👨🏿‍💻 GitHub
+custom_proxy_group=👨🏿‍💻 GitHub`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇭🇰 香港节点`🇯🇵 日本节点`🇸🇬 狮城节点`🇺🇲 美国节点`🇬🇧 英国节点`🇩🇪 德国节点`.*`🎯 直连
+
+; 🐬 OneDrive & Microsoft
+custom_proxy_group=🐬 OneDrive`select`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 香港自动`♻️ 自动选择`.*`🎯 直连
+custom_proxy_group=🪟 Microsoft`select`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 香港自动`♻️ 自动选择`.*`🎯 直连
+
+; 🎮 游戏组 (PlayStation, Steam, Epic)
+custom_proxy_group=🎮 PlayStation`select`🎯 直连`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇯🇵 日本节点`🇭🇰 香港节点`🇺🇲 美国节点`.*
+custom_proxy_group=🎮 steam`select`🎯 直连`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇭🇰 香港节点`🇯🇵 日本节点`🇺🇲 美国节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`.*
+custom_proxy_group=🎮 epicgames`select`🎯 直连`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇭🇰 香港节点`🇯🇵 日本节点`🇺🇲 美国节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`.*
+
+; 🎵 TikTok & Telegram & Netflix
+custom_proxy_group=🎵 TikTok`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇯🇵 日本节点`🇸🇬 狮城节点`🇺🇲 美国节点`🇹🇼 台湾节点`🇬🇧 英国节点`🇲🇾 马来节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`🇩🇪 德国节点`🇫🇷 法国节点`🇧🇷 巴西节点`🇰🇷 韩国节点`🇹🇭 泰国节点`🇵🇭 菲律宾节点`🇻🇳 越南节点`🇮🇩 印尼节点`.*`🎯 直连
+
+custom_proxy_group=📲 Telegram`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇸🇬 狮城节点`🇭🇰 香港节点`🇯🇵 日本节点`🇺🇲 美国节点`🇬🇧 英国节点`🇩🇪 德国节点`.*`🎯 直连
+
+custom_proxy_group=🎥 NETFLIX`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 🇹🇼 台湾自动`♻️ 🇬🇧 英国自动`♻️ 🇲🇾 马来自动`♻️ 自动选择`🇸🇬 狮城节点`🇭🇰 香港节点`🇯🇵 日本节点`🇺🇲 美国节点`🇹🇼 台湾节点`🇬🇧 英国节点`🇲🇾 马来节点`🇹🇷 土耳其节点`🇦🇷 阿根廷节点`🇩🇪 德国节点`🇫🇷 法国节点`🇧🇷 巴西节点`🇰🇷 韩国节点`🇹🇭 泰国节点`🇵🇭 菲律宾节点`🇻🇳 越南节点`🇮🇩 印尼节点`.*`🎯 直连
+
+; 💶 PayPal & Speedtest
+custom_proxy_group=💶 PayPal`select`♻️ 美国自动`♻️ 日本自动`♻️ 香港自动`♻️ 自动选择`🇺🇲 美国节点`🇯🇵 日本节点`🇭🇰 香港节点`.*`🎯 直连
+custom_proxy_group=✈️ Speedtest`select`♻️ 自动选择`.*`🎯 直连
+
+; 🍎 Apple & 🎯 直连 & 漏网之鱼
+custom_proxy_group=🍎 Apple`select`🎯 直连`🚀 默认代理
+custom_proxy_group=🎯 直连`select`DIRECT`🚀 默认代理
+custom_proxy_group=🐟 漏网之鱼`select`♻️ 香港自动`♻️ 日本自动`♻️ 狮城自动`♻️ 美国自动`♻️ 自动选择`.*`🎯 直连
+
+; === 规则集设置 (Rulesets) ===
+; 格式: ruleset=规则集名称,规则集URL
+
+ruleset=SteamCN,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+ruleset=EpicCN,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+ruleset=Private,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Private.list
+ruleset=Apple,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
+ruleset=ProxyLite,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+ruleset=Gemini,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list
+ruleset=OpenAI,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAI.list
+ruleset=AppleAI,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleIntelligence/AppleIntelligence.list
+ruleset=GitHub,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list
+ruleset=YouTube,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+ruleset=Google,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list
+ruleset=OneDrive,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OneDrive.list
+ruleset=Microsoft,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list
+ruleset=PlayStation,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Sony.list
+ruleset=Steam,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Steam.list
+ruleset=Epic,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Epic.list
+ruleset=TikTok,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TikTok.list
+ruleset=Speedtest,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Speedtest.list
+ruleset=Telegram,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Telegram.list
+ruleset=Netflix,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+ruleset=PayPal,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PayPal.list
+ruleset=China,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+ruleset=ChinaIP,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=Download,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Download.list
+
+; === 规则应用 (Rules) ===
+; 格式: custom_rule=类型,规则集名称,策略组
+
+; -- 防止游戏偷跑 --
+custom_rule=RULE-SET,SteamCN,🎯 直连
+custom_rule=RULE-SET,EpicCN,🎯 直连
+custom_rule=RULE-SET,Download,🎯 直连
+
+; -- 正常分流 --
+custom_rule=RULE-SET,Private,🎯 直连
+custom_rule=RULE-SET,Apple,🍎 Apple
+custom_rule=RULE-SET,Gemini,🤖 gemini
+custom_rule=RULE-SET,OpenAI,🤖 AI
+custom_rule=RULE-SET,AppleAI,🤖 apple-intelligence
+custom_rule=RULE-SET,GitHub,👨🏿‍💻 GitHub
+custom_rule=RULE-SET,YouTube,📹 YouTube
+custom_rule=RULE-SET,Google,🍀 Google
+custom_rule=RULE-SET,OneDrive,🐬 OneDrive
+custom_rule=RULE-SET,Microsoft,🪟 Microsoft
+custom_rule=RULE-SET,PlayStation,🎮 PlayStation
+custom_rule=RULE-SET,Steam,🎮 steam
+custom_rule=RULE-SET,Epic,🎮 epicgames
+custom_rule=RULE-SET,TikTok,🎵 TikTok
+custom_rule=RULE-SET,Speedtest,✈️ Speedtest
+custom_rule=RULE-SET,Telegram,📲 Telegram
+custom_rule=RULE-SET,Netflix,🎥 NETFLIX
+custom_rule=RULE-SET,PayPal,💶 PayPal
+custom_rule=RULE-SET,ProxyLite,🚀 默认代理
+
+; -- 兜底 --
+custom_rule=RULE-SET,China,🎯 直连
+custom_rule=RULE-SET,ChinaIP,🎯 直连
+custom_rule=GEOIP,CN,🎯 直连
+custom_rule=MATCH,🐟 漏网之鱼
